@@ -7,7 +7,6 @@ import lombok.extern.slf4j.Slf4j;
 import org.example.uniproject.dto.JwtAuthenticationDto;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
-
 import javax.crypto.SecretKey;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
@@ -17,7 +16,7 @@ import java.util.Date;
 @Component
 public class JwtService {
 
-    @Value("7c14d26625b46155a5d00ce9ee68c542")
+    @Value("154a38f18aea4b60f216d2b3e0601433438741c7b29cf1b1b334b61ab6ee414e")
     private String jwtSecret;
 
 
